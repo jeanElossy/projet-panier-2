@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>PANIER</title>
+</head>
+<body>
+  <div class="info">
+    <h1>Bienvenue sur notre site de vente en ligne</h1>
+  </div>
+  <header>
+    <div class="logo__site">
+      <a href="#"><h3>Logo du site</h3></a>
+    </div>
+    <nav>
+      <ul>
+        <div class="text__title">
+          <li><a href="#">Acceuil</a></li>
+          <li><a href="#">Commandes</a></li>
+          <li><a href="#">Compte</a></li>
+        </div>
+        <li class="basket">
+          <a href="#">
+            <div class="number" step="1">0</div>
+            <div><i class="fas fa-shopping-cart"></i></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container">
+    <div class="container__market__title">
+      <h2>Faites vos achats</h2>
+    </div>
+
+    <div class="container__contents">
+      <div class="content__card">
+        <h4>Une chaussure Nike</h4>
+        <div><i class="fas fa-heart"></i></div>
+        <img src="./ressources/images/chaussure-nike.jpg" alt="chaussure-nike" width="150" height="150">
+        <p>Prix: <span>45.000Fcfa</span></p>
+        <button class="btn-nike">Ajouter au panier</button>
+      </div>
+
+      <div class="content__card">
+        <h4>Un iphone 12 pro</h4>
+        <div><i class="fas fa-heart"></i></div>
+        <img src="./ressources//images/iphone.jpg" alt="Un Iphone 12 pro" width="150" height="150">
+        <p>Prix: <span>950.000Fcfa</span></p>
+        <button class="btn-iphone">Ajouter au panier</button>
+      </div>
+
+      <div class="content__card">
+        <h4>Un congelateur</h4>
+        <div><i class="fas fa-heart"></i></div>
+        <img src="./ressources/images/congelateur.jpg" alt="Un congelateur" width="150" height="150">
+        <p>Prix: <span>500.000Fcfa</span></p>
+        <button class="btn-congelateur">Ajouter au panier</button>
+      </div>
+
+      <div class="content__card">
+        <h4>Un tee-short</h4>
+        <div><i class="fas fa-heart"></i></div>
+        <img src="./ressources/images/tee-short.jpg" alt="Un tee-short" width="150" height="150">
+        <p>Prix: <span>25.000Fcfa</span></p>
+        <button class="btn-tee-short">Ajouter au panier</button>
+      </div>
+
+    </div>
+  </section>
+  <section class="container">
+    <div class="container__contacts">
+      <div class="social">
+        <p>Suivez-nous à travers nos reseaux sociaux.</p> 
+        <span><i class="fab fa-youtube"></i></span>
+        <span><i class="fab fa-twitter-square"></i></span>
+        <span><i class="fab fa-facebook"></i></span>
+      </div>
+      <div class="contact-me">
+        <h3>Veuillez-vous inscrire pour etre informer de toutes nos nouveautés.</h3>
+        <form action="/">
+          <input type="text" name="nom" id="nom" placeholder="Nom">
+          <input type="text" name="prenoms" id="prenoms" placeholder="Prenoms">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <div class="select">
+            <select>
+              <option value="CI">+225</option>
+              <option value="FR">+33</option>
+              <option value="MALI">+226</option>
+              <option value="BF">+224</option>
+              <option value="GHN">+221</option>
+            </select>
+            <input type="tel" name="number" id="numero" placeholder="Numero">
+          </div>
+          <input type="submit" value="S'inscrire">
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright - 2021 || Make by Wilson_Elossy</p>
+  </footer>
+
+  
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
